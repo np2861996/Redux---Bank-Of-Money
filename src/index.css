@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container-fluid,.title  {
+  display: block !important;
+}
+div#navbarSupportedContent {
+  display: block !important;
+  margin: 50px;
+}
+a.navbar-brand {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: math-auto;
+  text-decoration: underline;
+}
+body,  nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  background-color: cadetblue !important;
+}
+a.navbar-brand, .container {
+  color: #fff;
+}

@@ -10,8 +10,8 @@ const Shop = () => {
   return (
     <div>
         <h2>Deposite / Withraw Money</h2>
-        <button className="btn btn-primary mx-2" onClick={()=>withrawMoney(100)} >-</button>
-       Update Balance <button className="btn btn-primary mx-2" onClick={()=>depositeMoney(100)}>+</button>
+        <button className="btn btn-warning mx-2" onClick={()=>withrawMoney(100)} >-</button>
+       Update Balance <button className="btn btn-warning mx-2" onClick={()=>depositeMoney(100)}>+</button>
     </div>
   )
 }
